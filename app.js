@@ -163,7 +163,7 @@ app.get("/about", function(req, res) {
   res.render("about");
 });
 
-listen(PORT, () => console.log(`Listening on ${ PORT }`));
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
 // app.listen(3000, function() {
 //   console.log("Server started on port 3000");
 // });
